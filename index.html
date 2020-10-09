@@ -13,6 +13,9 @@
             flex-wrap: wrap;
         }
         a {
+            text-decoration: none;
+        }
+        .a_menu {
             float: left;
             display: block;
             color: black;
@@ -54,7 +57,7 @@
             color: black;
             margin: auto;
             width: 100%;
-            padding: 10px;
+            padding: 5px;
         }
         .imgLogo {
             padding: 10px;
@@ -64,15 +67,17 @@
 <body>
     <div class="hovedside">
         <ul>
-            <li><a href="index.html">Inova</a></li>
-            <li><a href="Schedule.html">Schedule</a></li>
-            <li><a href="about_us.html">About Us</a></li>
+            <li><a class="a_menu" href="index.html">Inova</a></li>
+            <li><a class="a_menu" href="Schedule.html">Schedule</a></li>
+            <li><a class="a_menu" href="about_us.html">About Us</a></li>
          </ul>
     
-     <img class="imgLogo" src="pictures/INOVA_logo.png" height="106.8px" width="76.8px">
-     <h1>Inova </h1>
+     <img class="imgLogo" src="pictures/INOVA_logo.png" alt="Picture of logo for INOVA" height="106.8px" width="76.8px">
+     <h1>Inova</h1>
     
+     <p class="pInfo">Inova is a frugal innvoation  company that ...</p>
     <p class="pInfo">We at Inova think that frugal innvoation is important for <strong>Companies</strong> and <strong>businneses</strong>. </p>
+    <p class="pInfo">Inova has scheduled innvoation camps for those that are interested in frugal innvoation. You can find the schedule on the menu or click <a href="Schedule.html">here</a>.</p>
     
         
 
